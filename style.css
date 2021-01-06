@@ -71,17 +71,20 @@ body{
     padding-bottom: 0px;
 }
 /* HALF WIDTH BANNER */
-.half-width{
+.half-width
+{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+.half-width img
+{
     width: 100%;
 }
 /* SECTION */
-section{
+section
+{
     height: 600px;
     padding-bottom: 80px;
     margin-top: 20px;
