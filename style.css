@@ -1,0 +1,307 @@
+@font-face
+{
+    font-family: Bookman Old Style;
+    src: url(fonts/BookmanOldStyle.TTF);
+}
+@font-face
+{
+    font-family: Footlight MT Light;
+    src: url(fonts/FootlightMTLight.TTF);
+}
+@font-face
+{
+    font-family: Comic Sans MS;
+    src: url(fonts/ComicSansMS.ttf);
+}
+@font-face
+{
+    font-family: Cooper Black;
+    src: url(fonts/CooperBlack.TTF);
+}
+@font-face
+{
+    font-family: Courier New;
+    src: url(fonts/CourierNew.ttf);
+}
+
+body{
+    margin: 0px;
+    font-family: Comic Sans MS;
+}
+/* MENU BAR */
+.menu-bar ul li
+{
+    list-style-type: none;
+    float: right;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 7px;
+    font-family: Bookman Old Style;
+}
+.menu-bar ul li:hover
+{
+    box-shadow: 5px 5px 30px slategray;
+    background-image: linear-gradient(45deg, palegreen, skyblue);
+    border-radius: 5%;
+    color: honeydew;
+}
+.menu-bar:hover
+{
+    background-image: linear-gradient(45deg, palegreen, skyblue);
+}
+.menu-bar ul
+{
+    margin: 15px 10px 20px 20px;
+    padding: 7px 25px 42px 20px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+}
+.menu-bar ul li a:hover
+{
+    color: #8400ff;
+}
+.top-menu
+{
+    height: 10px;
+    padding-bottom: 0px;
+}
+/* HALF WIDTH BANNER */
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+/* SECTION */
+section{
+    height: 600px;
+    padding-bottom: 80px;
+    margin-top: 20px;
+}
+/* TOP BANNER */
+#greetings
+{
+    font-family: Footlight MT Light;
+    color: rgb(174, 0, 255);
+    font-size: 40px;
+    padding-left: 10px;
+}
+#name
+{
+    font-family: Cooper Black;
+    font-size: 65px;
+    color:  #5d07fc;
+    margin-top: -30px;
+}
+#name:hover
+{
+    color: honeydew;
+    text-shadow: 5px 5px 30px red;
+}
+#designation
+{
+    font-family: Bookman Old Style;
+    font-size: 22px;
+    margin-top: -50px;
+    margin-left: -10px;
+    color: #131a20;
+}
+#profil-picture
+{
+    width: 75%;
+    margin-left: 20%;
+    margin-top: 5px; 
+    padding-bottom: -250px;
+    height: 5%;
+    
+}
+.description
+{
+    font-family: Comic Sans MS;
+    text-align: justify;
+    padding: 2%;
+    margin-top: -10px;
+    border-radius: 20px;
+    color: #45515c;
+}
+.description:hover
+{
+    box-shadow: 5px 5px 30px #b91010;
+    color: black;
+}
+.link
+{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #775cee, #5d07fc);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    float: left;
+    margin-left: 40%;
+    color: khaki;
+    margin-top: -20px;
+    font-family: Footlight MT Light;
+}
+.link:hover
+{
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 30px red;
+    background-image: linear-gradient(45deg, #fb98b9, rgb(235, 135, 135));
+}
+/* MIDDLE BANNER */
+.description-heading
+{
+    font-family: Footlight MT Light;
+    color: #ae00ff;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.description-heading:hover
+{
+    color: rgb(2, 40, 253);
+    text-shadow: 10px 10px 40px rgb(144, 34, 187);
+}
+#milestone
+{
+    margin-top: 100px;
+}
+.milestone
+{
+    margin-top: -100px;
+}
+.black-bg
+{
+    background-color: #d1e0f8;
+}
+/* ONE THIED WIDTH BANNER */
+.one-third-width
+{
+    padding-top: 20px;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    box-shadow: 5px 5px 30px black;
+    border-radius: 20px;
+    height: 500px;
+    background-color: white;
+}
+.one-third-width:hover
+{
+    background-color: slategray;
+    color: white;
+}
+.one-third-width img
+{
+    width: 80%;
+    border: 2px solid slategray;
+    border-radius: 20px;
+}
+/* PROJECT BANNER */
+.project-headline
+{
+    text-align: left;
+    padding-left: 20px;
+    color: #5d07fc;
+    font-family: Footlight MT Light;
+}
+.project-details
+{
+    text-align: justify;
+    padding: 0px 20px 10px 20px;
+    margin-top: -10px;
+    
+}
+.one-third-width a
+{
+    margin-left: 140px;
+}
+/* LAST BANNER */
+.expariance
+{
+    margin-bottom: -300px;
+}
+.description h2
+{
+    font-family: Bookman Old Style;
+    font-size: 25px;
+}
+.description h3
+{
+    margin-top: -15px;
+    color: rgb(255, 94, 0);
+    font-family: Bookman Old Style;
+}
+.description span
+{
+    font-size: 16px;
+}
+/* INQUIRY PART */
+.inquiry
+{
+    background-image: url("images/wi.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    padding-top: 40px;
+    margin-bottom: -50px;
+}
+.inquiry h1
+{
+    font-size: 35px;
+    margin-left: 32%;
+    color: whitesmoke;
+    font-family: Footlight MT Light;
+}
+.inquiry a
+{
+    float: left;
+    margin-left: 58%;
+    margin-top: -4.3%;
+}
+.img 
+{
+    margin-left: 42%;
+    margin-top: -35px;
+}
+/* SOCIAL MEDIA */
+.chat img
+{
+    float: left;
+    width: 8%;
+    padding: 5px;
+    margin-bottom: 50px;
+    border-radius: 80%;
+}
+.chat img:hover
+{
+    box-shadow: 10px 10px 40px rgb(247, 9, 9);
+}
+#last-sexction
+{
+    height: 300px;
+}
+/* FOOTER */
+footer
+{
+    text-align: center;
+    font-family: Courier New;
+    font-size: 18px;
+}
+footer:hover
+{
+    background-color: slategray;
+    color: white;
+}
